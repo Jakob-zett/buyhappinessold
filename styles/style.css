@@ -1,0 +1,38 @@
+#header {
+	text-align: center;
+}
+
+.subheader {
+	text-decoration: underline;
+}
+table {
+	width: 70%;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th,td {
+	padding: 50px
+	
+}
+
+
+#bottomnote {
+	position: absolute;
+	bottom: 0;
+}
+
+img {
+	width: 192px;
+	height: 108px;
+	display: block;
+	margin: 0 auto;
+}
+
+.bodycontent {
+	text-align: center;
+}
+
