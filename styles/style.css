@@ -1,38 +1,114 @@
-#header {
-	text-align: center;
-}
+* {
+	color: rgb(35, 47, 62);
+	font-family: arial sans-serif;
+	font-weight: normal;
 
-.subheader {
-	text-decoration: underline;
 }
-table {
-	width: 70%;
-}
+/*TOP*/
 
-table, th, td {
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-
-th,td {
-	padding: 50px
-	
-}
-
-
-#bottomnote {
-	position: absolute;
-	bottom: 0;
+#bar {
+    overflow: hidden;
+    background-color: rgb(35, 47, 62);
+    top: 0; 
+    width: 100%; 
+    height: 99px;
+    z-index: -1;
 }
 
 img {
 	width: 192px;
 	height: 108px;
+	margin: 0 0;
 	display: block;
-	margin: 0 auto;
 }
 
-.bodycontent {
+
+/*MAINPART*/
+.mainelement, .sideelement {
+	display: inline-block;
+
+}
+
+.mainelement {
+	text-decoration: underline;
+	margin: 30px 30px;
+}
+
+
+.sideelement p{
+	font-size: 160%;
 	text-align: center;
+    
+}
+
+#theidea, #theresult {
+	font-size: 170%;
+
+}
+#theidea {
+	border-bottom: 1px solid grey;
+}
+
+#thescience {
+	font-size: 180%;
+	display: flex;
+    align-items: center;
+}
+
+#theresult {
+	border-top: 1px solid grey;
+}
+
+p {
+	margin-left: 300px;
+}
+/*TABLE*/
+
+table {
+	margin-top: 25px;
+	margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+th, td  {
+	border: 1px solid black;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	padding: 15px;
+}
+
+th { 
+	background-color: rgb(35, 47, 62);
+	color: white;
+
+ }
+
+ #normalday {
+ 	color: red;
+ 	border:0px;
+}
+
+#happyday {
+	color: rgba(66, 224, 66, 0.66);
+	border: 0px;
+}
+#count{
+	border: none;
+	width: 100px;
+}
+
+
+
+.thepeople {
+	display: none;
+}
+.thenature {
+	display: none;
+}
+.theanimals{
+	display: none;
+}
 }
 

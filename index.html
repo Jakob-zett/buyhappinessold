@@ -4,54 +4,74 @@
     <meta charset="utf-8">
     <title>buyhappiness</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src= "scripts/main.js" type="text/javascript"></script>
+    
     </head>
+    
+
     <body>
+<!--THELOGO-->
+<div id="bar">
 
-    <img src="images/logo.png"  alt="logo">
-
-    <div>
-    <h3 class= "subheader"> The <br> idea: </h3>
-    <p class="bodycontent"> Money can buy happiness (legally*)</p>
-   
-    <h3 class= "subheader"> The science: </h3>
-   
-    <table class= "bodycontent">
-
-      <th scope="row" >
-
-        <td>
-            happy
-        </td>
-        <td>
-            not happy
-        </td>
-    </tr>
-    <tr>
-      <th scope="row" >
-        <td>
-            happy
-        </td>
-        <td>
-        exponentially happiness
-        </td>
-    </tr>
-    </table>
-
-   
-    <h3 class= "subheader"> The possibilities: </h3>
+<img src="images/logo.png"  alt="logo">
+</div>
 
 
+<!--THEMAINCONTENT-->
+<div class= "maincontent"> 
+<!--THEIDEAPART-->
+<div id="theidea">
+<h2 class="mainelement">The <br> idea:</h2>
+<p class="sideelement"> Money can buy happiness... <br> ...if you spend it the right way.</p>
+</div>
+<!-- THESCIENCEPART-->
+<div id="thescience">
+<h2 class="mainelement"> The <br> science*:</h2> 
+<table class="sideelement">
+<tr>
+    <th>1$ spend:</th>
+    <th scope="row">you</th>
+    <th scope="row">others</th>
+</tr>
+<tr>
+    <th scope="col"> for yourself:</th>
+    <td>coffee</td>
+    <td>X</td>
+    <td id="normalday"> = normal day</td>
+
+</tr>
+<tr>
+    <th scope="col">for good cause: </th>
+    <td>happy</td>
+    <td>
+    <form>
+    <select id="happyX">
+      <option value="default" selected >Select</option>
+      <option value="people"> happy people</option>
+      <option value="nature">happy nature</option>
+      <option value="animals">happy animals</option>
+    </select>
+    </label>
+    </form>
+    </td>
+    <td id="happyday"> = happy day</td>
+    <td id="count"> 
+    <button type= "button" class="thepeople"><a target="_blank" href="https://www.amnesty.org/en/donate-amnesty/">BUY NOW!</a></button>
+    <button type="button" class="thenature"><a target="_blank" href="http://www.greenpeace.org/international/en/getinvolved/">BUY NOW!</a></button>
+    <button type="button" class="theanimals" ><a target="_blank" href="https://support.peta.org/page/1828/donate/1">BUY NOW!</a></button>
+ </td>
+</tr>
+</table>
+</div>
+<!--THERESULTPART-->
+<div id="theresult">
+<h2 class="mainelement"> The<br>result:</h2>
+<p class="sideelement" id="counter"></p>
 
 
-
-
-
-
-
-
-<p id= bottomnote> * we don´t take responsibility for addiction </p>
-
-
-
+</div>
     </body>
     </html>
